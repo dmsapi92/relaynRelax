@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Form field styles within tabs */
+[role="tablist"] [data-state="active"] .form-field input {
+  @apply bg-transparent border-none p-0 h-6 text-white placeholder-white/60;
+}
+
+[role="tablist"] .form-field input {
+  @apply bg-transparent border-none p-0 h-6 min-w-0 text-inherit placeholder-inherit;
+}
+
+/* Tab styles */
+[role="tablist"] {
+  @apply relative isolate;
+}
+
+[role="tab"] {
+  @apply relative overflow-hidden;
+}
+
+[role="tab"][data-state="active"]::before {
+  content: "";
+  @apply absolute inset-0 bg-gradient-to-br from-primary/20 to-primary opacity-50;
+}
+
+[role="tab"]:hover:not([data-state="active"])::before {
+  content: "";
+  @apply absolute inset-0 bg-content2/50;
+}
+
+/* Form field focus styles within tabs */
+[role="tablist"] .form-field input:focus {
+  @apply outline-none ring-1 ring-primary/30 rounded;
+}
+
+[role="tablist"] [data-state="active"] .form-field input:focus {
+  @apply ring-white/30;
+}
+
+/* Tab content transition */
+[role="tabpanel"] {
+  @apply transition-all duration-200;
+}

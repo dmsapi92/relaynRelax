@@ -1,0 +1,206 @@
+{
+  "application": "Vehicle Management System",
+  "pages": {
+    "admin": {
+      "sidebar": {
+        "navItems": [
+          { "label": "Dashboard", "route": "/dashboard" },
+          { "label": "Users", "route": "/users" },
+          { "label": "Alerts", "route": "/alerts" },
+          { "label": "Logout", "route": "/logout" }
+        ]
+      },
+      "dashboard": {
+        "title": "Dashboard",
+        "content": {
+          "type": "mainContent"
+        }
+      },
+      "users": {
+        "title": "Users",
+        "content": {
+          "type": "table",
+          "label": "New table",
+          "columns": [
+            { "id": "name", "label": "Name" },
+            { "id": "vehicleNos", "label": "vehicle Nos" },
+            { "id": "date", "label": "Date" },
+            { "id": "phno", "label": "Ph no" },
+            { "id": "action", "label": "Action" }
+          ],
+          "rows": [
+            {
+              "name": "User 1",
+              "vehicleNos": "",
+              "date": "",
+              "phno": "",
+              "action": "Edit, delete, view, Whats app"
+            },
+            {
+              "name": "User 2",
+              "vehicleNos": "",
+              "date": "",
+              "phno": "",
+              "action": ""
+            }
+          ]
+        }
+      }
+    },
+    "client": {
+      "home": {
+        "title": "Home",
+        "components": [
+          {
+            "type": "userProfile",
+            "elements": [
+              { "type": "photo" },
+              { "type": "name" },
+              { "type": "address" },
+              { "type": "phone" },
+              { "type": "email" },
+              { "type": "logoutButton", "label": "Log out" }
+            ]
+          },
+          {
+            "type": "tabControl",
+            "tabs": [
+              { "id": "vehicle", "label": "Vehicle" },
+              { "id": "driving", "label": "Driving" }
+            ]
+          },
+          {
+            "type": "actionButtons",
+            "buttons": [
+              { "id": "addDrivingLicense", "label": "Add Driving License" },
+              { "id": "addVehicle", "label": "Add Vehicle" }
+            ]
+          },
+          {
+            "type": "vehicleList",
+            "items": [
+              {
+                "id": 1,
+                "label": "Reg Vehicle No 1",
+                "reminderDate": "chose reminder Date",
+                "actions": ["Edit", "Delete"]
+              },
+              {
+                "id": 2,
+                "label": "Reg Vehicle No 2",
+                "reminderDate": "chose reminder Date",
+                "actions": ["Edit", "Delete"]
+              },
+              {
+                "id": 3,
+                "label": "Reg Vehicle No 3",
+                "reminderDate": "chose reminder Date",
+                "actions": ["Edit", "Delete"]
+              },
+              {
+                "id": 4,
+                "label": "Reg Vehicle No 4",
+                "reminderDate": "chose reminder Date",
+                "actions": ["Edit", "Delete"]
+              }
+            ]
+          }
+        ]
+      },
+      "addDrivingLicense": {
+        "title": "Driving License NO",
+        "components": [
+          { "type": "input", "label": "Driving License NO" },
+          {
+            "type": "buttons",
+            "items": [
+              { "id": "save", "label": "Save" },
+              { "id": "cancel", "label": "Cancel" }
+            ]
+          }
+        ]
+      },
+      "addVehicle": {
+        "title": "Vehicle NO",
+        "components": [
+          { "type": "input", "label": "Vehicle NO" },
+          {
+            "type": "buttons",
+            "items": [
+              { "id": "save", "label": "Save" },
+              { "id": "cancel", "label": "Cancel" }
+            ]
+          }
+        ]
+      },
+      "reminderDatePicker": {
+        "title": "Select Reminder Date",
+        "components": [
+          {
+            "type": "dropdown",
+            "options": [
+              { "id": 1, "label": "PUCC" },
+              { "id": 2, "label": "fitness" },
+              { "id": 3, "label": "tax" },
+              { "id": 4, "label": "insurance" },
+              { "id": 5, "label": "permit" },
+              { "id": 6, "label": "National Permit" }
+            ]
+          },
+          { "type": "datePicker", "value": "15-05-2025" },
+          {
+            "type": "buttons",
+            "items": [
+              { "id": "save", "label": "Save" },
+              { "id": "cancel", "label": "Cancel" }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "roles": {
+    "admin": {
+      "accessiblePages": ["admin.dashboard", "admin.users", "admin.alerts"]
+    },
+    "client": {
+      "accessiblePages": [
+        "client.home",
+        "client.addDrivingLicense",
+        "client.addVehicle",
+        "client.reminderDatePicker"
+      ]
+    }
+  },
+  "workflow": {
+    "admin": {
+      "initialPage": "admin.dashboard",
+      "navigation": [
+        { "from": "sidebar.dashboard", "to": "admin.dashboard" },
+        { "from": "sidebar.users", "to": "admin.users" },
+        { "from": "sidebar.alerts", "to": "admin.alerts" },
+        { "from": "sidebar.logout", "to": "logout" }
+      ]
+    },
+    "client": {
+      "initialPage": "client.home",
+      "actions": [
+        {
+          "source": "home.addDrivingLicense",
+          "target": "client.addDrivingLicense"
+        },
+        { "source": "home.addVehicle", "target": "client.addVehicle" },
+        {
+          "source": "home.vehicleList.reminderDate",
+          "target": "client.reminderDatePicker"
+        },
+        { "source": "addDrivingLicense.save", "target": "client.home" },
+        { "source": "addDrivingLicense.cancel", "target": "client.home" },
+        { "source": "addVehicle.save", "target": "client.home" },
+        { "source": "addVehicle.cancel", "target": "client.home" },
+        { "source": "reminderDatePicker.save", "target": "client.home" },
+        { "source": "reminderDatePicker.cancel", "target": "client.home" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,278 @@
+datasource db {
+  provider = "mongodb"
+  url      = env("MASTER_DATABASE_URL")
+}
+
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["prismaSchemaFolder"]
+}
+
+generator zod {
+  provider                         = "zod-prisma-types"
+  useMultipleFiles                 = false // default is false
+  writeBarrelFiles                 = false // default is true
+  createInputTypes                 = false // default is true
+  createModelTypes                 = true // default is true
+  addInputTypeValidation           = false // default is true
+  addIncludeType                   = false // default is true
+  addSelectType                    = false // default is true
+  validateWhereUniqueInput         = false // default is true
+  createOptionalDefaultValuesTypes = false // default is false
+  createRelationValuesTypes        = false // default is false
+  createPartialTypes               = false // default is false
+  useDefaultValidators             = false // default is true
+  coerceDate                       = false // default is true
+  writeNullishInModelTypes         = false // default is false
+}
+
+generator prismaTypesGenerator {
+  provider     = "prisma-types-generator"
+  modelSuffix  = "Model"
+  prettier     = "false"
+  hideOnCreate = ["post.authorId"]
+}
+
+model SystemAdmin {
+  id                      String    @id @default(auto()) @map("_id") @db.ObjectId
+  email                   String    @unique
+  password                String
+  firstName               String
+  lastName                String
+  phoneNumber             String?
+  SystemId                String    @db.ObjectId
+  createdAt               DateTime  @default(now())
+  updatedAt               DateTime  @updatedAt
+  verified                Boolean   @default(false)
+  verificationToken       String?
+  verificationTokenExpiry DateTime?
+  address                 Address?
+  planId                  Int
+  planName                String
+  monthlyPrice            Float
+  authProvider            String    @default("email")
+  FcmToken                String?
+  System                  System[]
+  isSuperAdmin            Boolean   @default(false)
+}
+
+//=============================================================================//
+//                           System Models                               //
+//=============================================================================//
+
+model System {
+  id                 String       @id @default(auto()) @map("_id") @db.ObjectId
+  name               String
+  shortName          String?      @unique
+  email              String       @unique
+  firstName          String?
+  lastName           String?
+  phone              String
+  isInitialSystem    Boolean?     @default(false)
+  address            Address
+  isTwoFactorAuth    Boolean?     @default(false)
+  establishmentYear  Int?
+  website            String?
+  registrationNumber String?      @unique
+  slogan             String?
+  description        String?
+  logo               String?
+  admins             SystemAdmin? @relation(fields: [SystemAdminId], references: [id])
+  SystemAdminId      String?      @db.ObjectId
+  vision             String?
+  mission            String?
+  planId             Int
+
+  isVerified    Boolean   @default(false)
+  lastLoginAt   DateTime?
+  loginAttempts Int       @default(0)
+  lockUntil     DateTime?
+
+  createdAt               DateTime @default(now())
+  updatedAt               DateTime @updatedAt
+  razorpaySubscriptionIds String[]
+}
+
+type Address {
+  street   String
+  city     String
+  state    String
+  country  String
+  zipCode  String
+  location GeoLocation?
+}
+
+type GeoLocation {
+  type        String // Always "Point"
+  coordinates Float[] // [longitude, latitude]
+}
+
+// User model for authentication and profile
+model User {
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  email       String   @unique
+  password    String
+  firstName   String
+  lastName    String
+  phoneNumber String?
+  address     Address?
+
+  createdAt         DateTime  @default(now())
+  updatedAt         DateTime  @updatedAt
+  role              UserRole  @default(CUSTOMER)
+  isActive          Boolean   @default(true)
+  isVerified        Boolean   @default(false)
+  verificationToken String?
+  resetToken        String?
+  resetTokenExpiry  DateTime?
+
+  // Vehicle management relations
+  vehicles        Vehicle[]
+  drivingLicenses DrivingLicense[]
+  reminders       Reminder[]
+
+  ActivityLog  ActivityLog[]
+  Notification Notification[]
+}
+
+// Enum for user roles
+enum UserRole {
+  ADMIN
+  CUSTOMER
+  STAFF
+}
+
+// Vehicle Model
+model Vehicle {
+  id                 String @id @default(auto()) @map("_id") @db.ObjectId
+  registrationNumber String @unique
+  userId             String @db.ObjectId
+  user               User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  // Additional vehicle details
+  make  String?
+  model String?
+  year  Int?
+  color String?
+
+  // Vehicle documents and reminders
+  reminders Reminder[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+// Driving License Model
+model DrivingLicense {
+  id            String @id @default(auto()) @map("_id") @db.ObjectId
+  licenseNumber String @unique
+  userId        String @db.ObjectId
+  user          User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  // License details
+  issuedDate       DateTime?
+  expiryDate       DateTime?
+  issuingAuthority String?
+
+  // Reminders for license expiry
+  reminders Reminder[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+// Reminder Types Enum
+enum ReminderType {
+  PUCC
+  FITNESS
+  TAX
+  INSURANCE
+  PERMIT
+  NATIONAL_PERMIT
+  LICENSE_EXPIRY
+  OTHER
+}
+
+// Reminder Model
+model Reminder {
+  id           String       @id @default(auto()) @map("_id") @db.ObjectId
+  type         ReminderType
+  reminderDate DateTime
+
+  // Relations to what this reminder is for
+  userId String @db.ObjectId
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  vehicleId String?  @db.ObjectId
+  vehicle   Vehicle? @relation(fields: [vehicleId], references: [id], onDelete: SetNull)
+
+  licenseId String?         @db.ObjectId
+  license   DrivingLicense? @relation(fields: [licenseId], references: [id], onDelete: SetNull)
+
+  // Notification settings
+  notifyDaysBefore Int     @default(7)
+  isEnabled        Boolean @default(true)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+// Notification model for system notifications
+model Notification {
+  id        String           @id @default(auto()) @map("_id") @db.ObjectId
+  userId    String           @db.ObjectId
+  user      User             @relation(fields: [userId], references: [id], onDelete: Cascade)
+  title     String
+  message   String
+  type      NotificationType
+  isRead    Boolean          @default(false)
+  createdAt DateTime         @default(now())
+  readAt    DateTime?
+}
+
+// Enum for notification types
+enum NotificationType {
+  TRANSACTION
+  INVESTMENT
+  KYC
+  SYSTEM
+  PROMOTIONAL
+  REMINDER // Added for vehicle/license reminders
+}
+
+// Activity Log model for tracking all system activities
+model ActivityLog {
+  id         String         @id @default(auto()) @map("_id") @db.ObjectId
+  userId     String?        @db.ObjectId
+  user       User?          @relation(fields: [userId], references: [id], onDelete: SetNull)
+  entityId   String         @db.ObjectId // ID of the affected entity (investment, transaction, etc.)
+  entityType EntityType // Type of entity being affected
+  action     ActivityAction // Type of action performed
+  details    Json? // Additional details about the activity
+  ipAddress  String? // IP address of the user
+  userAgent  String? // Browser/device info
+  createdAt  DateTime       @default(now())
+  metadata   Json? // Any additional metadata
+}
+
+// Enum for entity types that can be tracked
+enum EntityType {
+  VEHICLE
+  DRIVING_LICENSE
+  REMINDER
+}
+
+// Enum for types of actions that can be performed
+enum ActivityAction {
+  CREATE
+  UPDATE
+  DELETE
+  VIEW
+  LOGIN
+  LOGOUT
+  VERIFY
+  REJECT
+  COMPLETE
+  CANCEL
+  REDEEM
+}

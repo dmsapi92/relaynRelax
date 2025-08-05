@@ -1,0 +1,2704 @@
+{
+  "Users": [
+    {
+      "people1-3": [
+        {
+          "id": 66,
+          "name": "Ashok paul",
+          "age": 58,
+          "gender": "M",
+          "number": "7387405922",
+          "place": "Sonakhira"
+        },
+        {
+          "id": 67,
+          "name": "Sudipta Das",
+          "age": 58,
+          "gender": "M",
+          "number": "6003091359",
+          "place": "Sonakhira"
+        },
+        {
+          "id": 68,
+          "name": "Duipati sahani",
+          "age": 56,
+          "gender": "F",
+          "number": "9707230361",
+          "place": "Sonakhira"
+        },
+        {
+          "id": 69,
+          "name": "Rohit sahani",
+          "age": 33,
+          "gender": "M",
+          "number": "6002694680",
+          "place": "Sonakhira"
+        },
+        {
+          "id": 70,
+          "name": "Aroti sahani",
+          "age": 26,
+          "gender": "F",
+          "number": "6002694680",
+          "place": "Sonakhira"
+        },
+        {
+          "id": 71,
+          "name": "Renuka sahani",
+          "age": 23,
+          "gender": "F",
+          "number": null,
+          "place": "Sonakhira"
+        },
+        {
+          "id": 72,
+          "name": "Aditi sahani",
+          "age": 4,
+          "gender": "F",
+          "number": null,
+          "place": "Sonakhira"
+        },
+        {
+          "id": 73,
+          "name": "Ashak sahani",
+          "age": 55,
+          "gender": "M",
+          "number": null,
+          "place": "Sonakhira"
+        },
+        {
+          "id": 74,
+          "name": "Susmita sahani",
+          "age": 38,
+          "gender": "F",
+          "number": null,
+          "place": "Sonakhira"
+        },
+        {
+          "id": 75,
+          "name": "Anlon sahani",
+          "age": 22,
+          "gender": "M",
+          "number": null,
+          "place": "Sonakhira"
+        },
+        {
+          "id": 76,
+          "name": "Aniket sahani",
+          "age": 20,
+          "gender": "M",
+          "number": null,
+          "place": "Sonakhira"
+        },
+        {
+          "id": 77,
+          "name": "Dulip paul",
+          "age": 54,
+          "gender": "M",
+          "number": "9395363810",
+          "place": "Sonakhira"
+        },
+        {
+          "id": 78,
+          "name": "Goutam kanoo",
+          "age": 50,
+          "gender": "M",
+          "number": "600294 288",
+          "place": "Sonakhira"
+        },
+        {
+          "id": 79,
+          "name": "Uttam kanoo",
+          "age": 42,
+          "gender": "M",
+          "number": "6002041688",
+          "place": "Sonakhira"
+        },
+        {
+          "id": 80,
+          "name": "Razu urang",
+          "age": 41,
+          "gender": "M",
+          "number": "7086434396",
+          "place": "Sonakhira"
+        },
+        {
+          "id": 81,
+          "name": "Pinki urang",
+          "age": 39,
+          "gender": "F",
+          "number": "6900890388",
+          "place": "Sonakhira"
+        },
+        {
+          "id": 82,
+          "name": "Putima Ghosh",
+          "age": 50,
+          "gender": "F",
+          "number": null,
+          "place": "Sonakhira"
+        },
+        {
+          "id": 83,
+          "name": "Unes Khan",
+          "age": 57,
+          "gender": "M",
+          "number": null,
+          "place": "Sonakhira"
+        },
+        {
+          "id": 84,
+          "name": "Rehana Khanm",
+          "age": 52,
+          "gender": "F",
+          "number": null,
+          "place": "Sonakhira"
+        },
+        {
+          "id": 85,
+          "name": "Narayan Paul",
+          "age": 45,
+          "gender": "M",
+          "number": null,
+          "place": "Sonakhira"
+        },
+        {
+          "id": 86,
+          "name": "Niranjan Paul",
+          "age": 74,
+          "gender": "M",
+          "number": "6900366589",
+          "place": "Sonakhira"
+        },
+        {
+          "id": 87,
+          "name": "Sulekha Paul",
+          "age": 36,
+          "gender": "F",
+          "number": "6900366589",
+          "place": "Sonakhira"
+        },
+        {
+          "id": 88,
+          "name": "Bidhan Paul",
+          "age": 36,
+          "gender": "M",
+          "number": "6900366589",
+          "place": "Sonakhira"
+        },
+        {
+          "id": 89,
+          "name": "Gopi Ranjan Paul",
+          "age": 65,
+          "gender": "M",
+          "number": "9365080418",
+          "place": "Sonakhira"
+        },
+        {
+          "id": 90,
+          "name": "Satyajit Paul",
+          "age": 40,
+          "gender": "M",
+          "number": "9365080418",
+          "place": "Sonakhira"
+        },
+        {
+          "id": 100,
+          "name": "Jayanti Paul",
+          "age": 72,
+          "gender": "F",
+          "number": "9395363810",
+          "place": "Sonakhira"
+        },
+        {
+          "id": 101,
+          "name": "Luna Paul",
+          "age": 39,
+          "gender": "F",
+          "number": "9365080418",
+          "place": "Sonakhira"
+        },
+        {
+          "id": 102,
+          "name": "Ujjal Paul",
+          "age": 58,
+          "gender": "M",
+          "number": null,
+          "place": "Sonakhira"
+        },
+        {
+          "id": 103,
+          "name": "Mousumi Paul",
+          "age": 49,
+          "gender": "F",
+          "number": null,
+          "place": "Sonakhira"
+        },
+        {
+          "id": 104,
+          "name": "Sapna Paul",
+          "age": 52,
+          "gender": "F",
+          "number": "8473948088",
+          "place": "Sonakhira"
+        },
+        {
+          "id": 105,
+          "name": "Pravash Paul",
+          "age": 59,
+          "gender": "M",
+          "number": "9365170570",
+          "place": "Sonakhira"
+        },
+        {
+          "id": 106,
+          "name": "Dipa Paul",
+          "age": 51,
+          "gender": "F",
+          "number": "9365170570",
+          "place": "Sonakhira"
+        },
+        {
+          "id": 107,
+          "name": "Nivash Paul",
+          "age": 57,
+          "gender": "M",
+          "number": "7086471388",
+          "place": "Sonakhira"
+        },
+        {
+          "id": 108,
+          "name": "Sumeta Paul",
+          "age": 48,
+          "gender": "F",
+          "number": "9954771017",
+          "place": "Sonakhira"
+        },
+        {
+          "id": 109,
+          "name": "Ashutosh Paul",
+          "age": 53,
+          "gender": "M",
+          "number": "9365203869",
+          "place": "Sonakhira"
+        },
+        {
+          "id": 110,
+          "name": "Biraj Acharjee",
+          "age": 74,
+          "gender": "M",
+          "number": "9435922990",
+          "place": "Sonakhira"
+        },
+        {
+          "id": 111,
+          "name": "Archana Sharma",
+          "age": 59,
+          "gender": "F",
+          "number": "9435922990",
+          "place": "Sonakhira"
+        },
+        {
+          "id": 112,
+          "name": "Biva Acharjee",
+          "age": 61,
+          "gender": "F",
+          "number": "9864218622",
+          "place": "Sonakhira"
+        },
+        {
+          "id": 113,
+          "name": "Luba Acharjee",
+          "age": 59,
+          "gender": "F",
+          "number": "9864218622",
+          "place": "Sonakhira"
+        },
+        {
+          "id": 114,
+          "name": "Sefali Kanoo",
+          "age": 44,
+          "gender": "F",
+          "number": "9864656372",
+          "place": "Sonakhira"
+        },
+        {
+          "id": 115,
+          "name": "Uttam Bhatta",
+          "age": 63,
+          "gender": "M",
+          "number": "9954770956",
+          "place": "Sonakhira"
+        },
+        {
+          "id": 116,
+          "name": "Babli Bhatta",
+          "age": 47,
+          "gender": "F",
+          "number": "9954770956",
+          "place": "Sonakhira"
+        },
+        {
+          "id": 117,
+          "name": "Sunita Kanoo",
+          "age": 49,
+          "gender": "F",
+          "number": "6002041688",
+          "place": "Sonakhira"
+        },
+        {
+          "id": 118,
+          "name": "Monita Bhatta",
+          "age": 58,
+          "gender": "F",
+          "number": null,
+          "place": "Sonakhira"
+        },
+        {
+          "id": 119,
+          "name": "Lakshmi  Kanoo",
+          "age": 72,
+          "gender": "M",
+          "number": null,
+          "place": "Sonakhira"
+        },
+        {
+          "id": 120,
+          "name": "Vagolyomoti Kanoo",
+          "age": 62,
+          "gender": "F",
+          "number": null,
+          "place": "Sonakhira"
+        },
+        {
+          "id": 121,
+          "name": "Genash Verma",
+          "age": 58,
+          "gender": "M",
+          "number": "8822052120",
+          "place": "Sonakhira"
+        },
+        {
+          "id": 122,
+          "name": "Chanda Verma",
+          "age": 46,
+          "gender": "F",
+          "number": "8822052120",
+          "place": "Sonakhira"
+        }
+      ]
+    },
+    {
+      "people4": [
+        {
+          "id": null,
+          "name": "Badal Ray",
+          "place": "CHANDKHIRA",
+          "age": 46,
+          "gender": "M",
+          "number": "6002893824"
+        },
+        {
+          "id": null,
+          "name": "Rajnarayan Goala",
+          "place": "CHANDKHIRA",
+          "age": 63,
+          "gender": "M",
+          "number": "9707407470"
+        },
+        {
+          "id": null,
+          "name": "Shankar Roy",
+          "place": "CHANDKHIRA",
+          "age": 37,
+          "gender": "M",
+          "number": "7636905784"
+        },
+        {
+          "id": null,
+          "name": "Biru Santal",
+          "place": "CHANDKHIRA",
+          "age": 40,
+          "gender": "M",
+          "number": "9739231826"
+        },
+        {
+          "id": null,
+          "name": "Putul Mani Roy",
+          "place": "CHANDKHIRA",
+          "age": 56,
+          "gender": "F",
+          "number": "7086431726"
+        },
+        {
+          "id": null,
+          "name": "Sudarshan Roy",
+          "place": "CHANDKHIRA",
+          "age": 34,
+          "gender": "M",
+          "number": "9678804289"
+        },
+        {
+          "id": null,
+          "name": "Abu Roy",
+          "place": "CHANDKHIRA",
+          "age": 31,
+          "gender": "M",
+          "number": "7892662129"
+        },
+        {
+          "id": null,
+          "name": "Raju Kurmi",
+          "place": "CHANDKHIRA",
+          "age": 42,
+          "gender": "M",
+          "number": "9707797989"
+        },
+        {
+          "id": null,
+          "name": "Raja Mohon Bhar",
+          "place": "CHANDKHIRA",
+          "age": 33,
+          "gender": "M",
+          "number": "6900325346"
+        },
+        {
+          "id": null,
+          "name": "Sunarian Bhar",
+          "place": "CHANDKHIRA",
+          "age": 64,
+          "gender": "M",
+          "number": "6003923782"
+        },
+        {
+          "id": null,
+          "name": "Mahabir Roy",
+          "place": "CHANDKHIRA",
+          "age": 40,
+          "gender": "M",
+          "number": "7086636438"
+        },
+        {
+          "id": null,
+          "name": "Janadrdhan Goala",
+          "place": "CHANDKHIRA",
+          "age": 58,
+          "gender": "M",
+          "number": "8751094644"
+        },
+        {
+          "id": null,
+          "name": "Mithili Lal Kurmi",
+          "place": "CHANDKHIRA",
+          "age": 48,
+          "gender": "M",
+          "number": "6900896590"
+        },
+        {
+          "id": null,
+          "name": "Swenath Goala",
+          "place": "CHANDKHIRA",
+          "age": 62,
+          "gender": "M",
+          "number": "9859910647"
+        },
+        {
+          "id": null,
+          "name": "Munmi Panday",
+          "place": "CHANDKHIRA",
+          "age": 47,
+          "gender": "F",
+          "number": "7002995241"
+        },
+        {
+          "id": null,
+          "name": "Scunaray Kurmi",
+          "place": "CHANDKHIRA",
+          "age": 58,
+          "gender": "M",
+          "number": "6900697595"
+        }
+      ]
+    },
+    {
+      "people5": [
+        {
+          "id": null,
+          "name": "Urmila Roy",
+          "place": "CHANDKHIRA",
+          "age": 63,
+          "gender": "F",
+          "number": "8134937655"
+        },
+        {
+          "id": null,
+          "name": "Shukumari Roy",
+          "place": "CHANDKHIRA",
+          "age": 73,
+          "gender": "F",
+          "number": "9678728731"
+        },
+        {
+          "id": null,
+          "name": "Jayanto Roy",
+          "place": "CHANDKHIRA",
+          "age": 42,
+          "gender": "M",
+          "number": "9678728731"
+        },
+        {
+          "id": null,
+          "name": "Shairanita Roy",
+          "place": "CHANDKHIRA",
+          "age": 53,
+          "gender": "M",
+          "number": "9365095179"
+        },
+        {
+          "id": null,
+          "name": "Samatan Roy",
+          "place": "CHANDKHIRA",
+          "age": 49,
+          "gender": "M",
+          "number": "8134937429"
+        },
+        {
+          "id": null,
+          "name": "Shanti Lal Goala",
+          "place": "CHANDKHIRA",
+          "age": 59,
+          "gender": "M",
+          "number": "8812938786"
+        },
+        {
+          "id": null,
+          "name": "Sanjoy Roy",
+          "place": "CHANDKHIRA",
+          "age": 33,
+          "gender": "M",
+          "number": "9577159285"
+        },
+        {
+          "id": null,
+          "name": "Shyam Roy",
+          "place": "CHANDKHIRA",
+          "age": 59,
+          "gender": "M",
+          "number": "9387884586"
+        },
+        {
+          "id": null,
+          "name": "Prasun Goala",
+          "place": "CHANDKHIRA",
+          "age": 70,
+          "gender": "M",
+          "number": "9613087273"
+        },
+        {
+          "id": null,
+          "name": "Fullanati Roy",
+          "place": "CHANDKHIRA",
+          "age": 43,
+          "gender": "F",
+          "number": "8638229554"
+        },
+        {
+          "id": null,
+          "name": "Rohit Sautal",
+          "place": "CHANDKHIRA",
+          "age": 41,
+          "gender": "M",
+          "number": "9387093512"
+        },
+        {
+          "id": null,
+          "name": "Bijla Saotal",
+          "place": "CHANDKHIRA",
+          "age": 52,
+          "gender": "F",
+          "number": "7896355531"
+        },
+        {
+          "id": null,
+          "name": "Bijla Saotal",
+          "place": "CHANDKHIRA",
+          "age": 53,
+          "gender": "F",
+          "number": "7896274573"
+        },
+        {
+          "id": null,
+          "name": "Sabita Saotal",
+          "place": "CHANDKHIRA",
+          "age": 42,
+          "gender": "F",
+          "number": "7099373095"
+        },
+        {
+          "id": null,
+          "name": "Lakhi Prasad Roy",
+          "place": "CHANDKHIRA",
+          "age": 32,
+          "gender": "M",
+          "number": "9387884778"
+        }
+      ]
+    },
+    {
+      "people6": [
+        {
+          "id": null,
+          "name": "Narayan Rabidas",
+          "place": "CHANDKHIRA",
+          "age": 32,
+          "gender": "M",
+          "number": "9387885172"
+        },
+        {
+          "id": null,
+          "name": "Sujit Roy",
+          "place": "CHANDKHIRA",
+          "age": 30,
+          "gender": "M",
+          "number": "9387884748"
+        },
+        {
+          "id": null,
+          "name": "Ruhit Roy",
+          "place": "CHANDKHIRA",
+          "age": 27,
+          "gender": "M",
+          "number": "9387884748"
+        },
+        {
+          "id": null,
+          "name": "Lokhi Kanta Roy",
+          "place": "CHANDKHIRA",
+          "age": 25,
+          "gender": "M",
+          "number": "9387884748"
+        },
+        {
+          "id": null,
+          "name": "Joyesh Karmakar",
+          "place": "CHANDKHIRA",
+          "age": 57,
+          "gender": "M",
+          "number": "6901667803"
+        },
+        {
+          "id": null,
+          "name": "Gopal Rabidas",
+          "place": "CHANDKHIRA",
+          "age": 52,
+          "gender": "M",
+          "number": "8133911301"
+        },
+        {
+          "id": null,
+          "name": "Raghunath Rabidas",
+          "place": "CHANDKHIRA",
+          "age": 58,
+          "gender": "M",
+          "number": "9387405963"
+        },
+        {
+          "id": null,
+          "name": "Amulya Roy",
+          "place": "CHANDKHIRA",
+          "age": 63,
+          "gender": "M",
+          "number": "6900503716"
+        },
+        {
+          "id": null,
+          "name": "Jiten Roy",
+          "place": "CHANDKHIRA",
+          "age": 31,
+          "gender": "M",
+          "number": "8134975742"
+        },
+        {
+          "id": null,
+          "name": "Anjan Kumar Rabidas",
+          "place": "CHANDKHIRA",
+          "age": 63,
+          "gender": "M",
+          "number": "9954809502"
+        },
+        {
+          "id": null,
+          "name": "Uttam Rabidas",
+          "place": "CHANDKHIRA",
+          "age": 65,
+          "gender": "M",
+          "number": "6901332578"
+        },
+        {
+          "id": null,
+          "name": "Arati  Karmakar",
+          "place": "CHANDKHIRA",
+          "age": 48,
+          "gender": "F",
+          "number": "6001402356"
+        },
+        {
+          "id": null,
+          "name": "Shanti Karmakar",
+          "place": "CHANDKHIRA",
+          "age": 56,
+          "gender": "F",
+          "number": "8471819997"
+        },
+        {
+          "id": null,
+          "name": "Sandip Roy",
+          "place": "CHANDKHIRA",
+          "age": 29,
+          "gender": "M",
+          "number": "6901592825"
+        },
+        {
+          "id": null,
+          "name": "Nomi Santal",
+          "place": "CHANDKHIRA",
+          "age": 59,
+          "gender": "F",
+          "number": "6900076060"
+        },
+        {
+          "id": null,
+          "name": "Sushila Kanoo",
+          "place": "CHANDKHIRA",
+          "age": 51,
+          "gender": "F",
+          "number": "6379169330"
+        }
+      ]
+    },
+    {
+      "people7": [
+        {
+          "id": null,
+          "name": "Fulmati Rabidas",
+          "place": "CHANDKHIRA",
+          "age": 56,
+          "gender": "F",
+          "number": "9394264627"
+        },
+        {
+          "id": null,
+          "name": "Gopal Rabidas",
+          "place": "CHANDKHIRA",
+          "age": 33,
+          "gender": "M",
+          "number": "8974283495"
+        },
+        {
+          "id": null,
+          "name": "Hire Ree",
+          "place": "CHANDKHIRA",
+          "age": 35,
+          "gender": "F",
+          "number": "8099755202"
+        },
+        {
+          "id": null,
+          "name": "Narayan Karmakar",
+          "place": "CHANDKHIRA",
+          "age": 35,
+          "gender": "M",
+          "number": "9663369732"
+        },
+        {
+          "id": null,
+          "name": "Ajay Karmakar",
+          "place": "CHANDKHIRA",
+          "age": 34,
+          "gender": "M",
+          "number": "7338226068"
+        },
+        {
+          "id": null,
+          "name": "Bijoy Karmakar",
+          "place": "CHANDKHIRA",
+          "age": 32,
+          "gender": "M",
+          "number": "9606150952"
+        },
+        {
+          "id": null,
+          "name": "Druphabati Roy",
+          "place": "CHANDKHIRA",
+          "age": 46,
+          "gender": "F",
+          "number": "6900411078"
+        },
+        {
+          "id": null,
+          "name": "Ram Prasad Rabidas",
+          "place": "CHANDKHIRA",
+          "age": 50,
+          "gender": "M",
+          "number": "6900411078"
+        },
+        {
+          "id": null,
+          "name": "Jagadish Rabidas",
+          "place": "CHANDKHIRA",
+          "age": 69,
+          "gender": "M",
+          "number": "9954489424"
+        },
+        {
+          "id": null,
+          "name": "Babulal Roy",
+          "place": "CHANDKHIRA",
+          "age": 57,
+          "gender": "M",
+          "number": "9954489772"
+        },
+        {
+          "id": null,
+          "name": "Satyajit Roy",
+          "place": "CHANDKHIRA",
+          "age": 55,
+          "gender": "M",
+          "number": "9678821905"
+        },
+        {
+          "id": null,
+          "name": "Parshuram R. Das",
+          "place": "CHANDKHIRA",
+          "age": 54,
+          "gender": "M",
+          "number": "9678821905"
+        },
+        {
+          "id": null,
+          "name": "Shantalal Roy",
+          "place": "CHANDKHIRA",
+          "age": 46,
+          "gender": "M",
+          "number": "9365407994"
+        },
+        {
+          "id": null,
+          "name": "Shibani Roy",
+          "place": "CHANDKHIRA",
+          "age": 57,
+          "gender": "F",
+          "number": "6002781484"
+        },
+        {
+          "id": null,
+          "name": "Rakhal Roy",
+          "place": "CHANDKHIRA",
+          "age": 31,
+          "gender": "F",
+          "number": "9707492981"
+        },
+        {
+          "id": null,
+          "name": "Lakhi Charan Roy",
+          "place": "CHANDKHIRA",
+          "age": 60,
+          "gender": "M",
+          "number": "8812943002"
+        }
+      ]
+    },
+    {
+      "people8": [
+        {
+          "id": null,
+          "name": "Muniya Rabidas",
+          "place": "CHANDKHIRA",
+          "age": 40,
+          "gender": "F",
+          "number": "8134949263"
+        },
+        {
+          "id": null,
+          "name": "Manilal Rashi",
+          "place": "CHANDKHIRA",
+          "age": 58,
+          "gender": "M",
+          "number": "9365762368"
+        },
+        {
+          "id": null,
+          "name": "Rajdeep Panday",
+          "place": "CHANDKHIRA",
+          "age": 46,
+          "gender": "M",
+          "number": "7429449359"
+        },
+        {
+          "id": null,
+          "name": "Uttam Bauri",
+          "place": "CHANDKHIRA",
+          "age": 46,
+          "gender": "M",
+          "number": "9954411856"
+        },
+        {
+          "id": null,
+          "name": "Hiralal Rabidas",
+          "place": "CHANDKHIRA",
+          "age": 45,
+          "gender": "M",
+          "number": "7086083572"
+        },
+        {
+          "id": null,
+          "name": "Bachu Bauri",
+          "place": "CHANDKHIRA",
+          "age": 45,
+          "gender": "M",
+          "number": "9954411856"
+        },
+        {
+          "id": null,
+          "name": "Fulmati Rabidas",
+          "place": "CHANDKHIRA",
+          "age": 48,
+          "gender": "F",
+          "number": "7086083572"
+        },
+        {
+          "id": null,
+          "name": "Lakhinder Ghara",
+          "place": "CHANDKHIRA",
+          "age": 83,
+          "gender": "M",
+          "number": "8486765300"
+        },
+        {
+          "id": null,
+          "name": "Raju Rabidas",
+          "place": "CHANDKHIRA",
+          "age": 48,
+          "gender": "M",
+          "number": "8136081702"
+        },
+        {
+          "id": null,
+          "name": "Dibesh Ghara",
+          "place": "CHANDKHIRA",
+          "age": 28,
+          "gender": "M",
+          "number": "7022089262"
+        },
+        {
+          "id": null,
+          "name": "Kamal Rabidas",
+          "place": "CHANDKHIRA",
+          "age": 27,
+          "gender": "M",
+          "number": "9954489413"
+        },
+        {
+          "id": null,
+          "name": "Gita Rabidas",
+          "place": "CHANDKHIRA",
+          "age": 27,
+          "gender": "M",
+          "number": "9954489413"
+        },
+        {
+          "id": null,
+          "name": "Sonamati Rabidas",
+          "place": "CHANDKHIRA",
+          "age": 68,
+          "gender": "F",
+          "number": "6900647799"
+        },
+        {
+          "id": null,
+          "name": "Pularam Rabidas",
+          "place": "CHANDKHIRA",
+          "age": 37,
+          "gender": "M",
+          "number": "8837043612"
+        },
+        {
+          "id": null,
+          "name": "Krishna Rabidas",
+          "place": "CHANDKHIRA",
+          "age": 36,
+          "gender": "M",
+          "number": "8837043612"
+        },
+        {
+          "id": null,
+          "name": "Arati Roy",
+          "place": "CHANDKHIRA",
+          "age": 52,
+          "gender": "F",
+          "number": "9387284748"
+        }
+      ]
+    },
+    {
+      "people9": [
+        {
+          "id": null,
+          "name": "Hiya Turia",
+          "place": "Lalkhira",
+          "age": 32,
+          "gender": "M",
+          "number": "6000725096"
+        },
+        {
+          "id": null,
+          "name": "Chandan Majhi",
+          "place": "Lalkhira",
+          "age": 37,
+          "gender": "M",
+          "number": "6026776952"
+        },
+        {
+          "id": null,
+          "name": "Ganesh Turia",
+          "place": "Lalkhira",
+          "age": 36,
+          "gender": "M",
+          "number": "6000725096"
+        },
+        {
+          "id": null,
+          "name": "Radha Shyam Das",
+          "place": "Lalkhira",
+          "age": 40,
+          "gender": "M",
+          "number": "9401667501"
+        },
+        {
+          "id": null,
+          "name": "Dilip Turia",
+          "place": "Lalkhira",
+          "age": 38,
+          "gender": "M",
+          "number": "9707230379"
+        },
+        {
+          "id": null,
+          "name": "Santu Turia",
+          "place": "Lalkhira",
+          "age": 35,
+          "gender": "M",
+          "number": "6003422195"
+        },
+        {
+          "id": null,
+          "name": "Buban Bauri",
+          "place": "Lalkhira",
+          "age": 42,
+          "gender": "M",
+          "number": "9150881521"
+        },
+        {
+          "id": null,
+          "name": "Porash Das",
+          "place": "Lalkhira",
+          "age": 60,
+          "gender": "M",
+          "number": "9859412235"
+        },
+        {
+          "id": null,
+          "name": "Bousaku Bauri",
+          "place": "Lalkhira",
+          "age": 43,
+          "gender": "M",
+          "number": "9864671692"
+        },
+        {
+          "id": null,
+          "name": "Monik Chandra Das",
+          "place": "Lalkhira",
+          "age": 36,
+          "gender": "M",
+          "number": "9864556434"
+        },
+        {
+          "id": null,
+          "name": "Golap Rabidas",
+          "place": "Lalkhira",
+          "age": 37,
+          "gender": "M",
+          "number": "9532186957"
+        },
+        {
+          "id": null,
+          "name": "Lukesh Baiga",
+          "place": "Lalkhira",
+          "age": 57,
+          "gender": "M",
+          "number": "6936676521"
+        },
+        {
+          "id": null,
+          "name": "Aguru Mala",
+          "place": "Lalkhira",
+          "age": 35,
+          "gender": "M",
+          "number": "7086931151"
+        },
+        {
+          "id": null,
+          "name": "Bhajan Turia",
+          "place": "Lalkhira",
+          "age": 51,
+          "gender": "M",
+          "number": "7099991149"
+        },
+        {
+          "id": null,
+          "name": "Ramesh Turia",
+          "place": "Lalkhira",
+          "age": 38,
+          "gender": "M",
+          "number": "8822566605"
+        },
+        {
+          "id": null,
+          "name": "Subash Turia",
+          "place": "Lalkhira",
+          "age": 38,
+          "gender": "M",
+          "number": "6026058575"
+        }
+      ]
+    },
+    {
+      "people10": [
+        {
+          "id": null,
+          "name": "Manik Chandra Das",
+          "place": "Lalkhira",
+          "age": 35,
+          "gender": "M",
+          "number": "9577951977"
+        },
+        {
+          "id": null,
+          "name": "Shiv Sankar Turia",
+          "place": "Lalkhira",
+          "age": 37,
+          "gender": "M",
+          "number": "9543085104"
+        },
+        {
+          "id": null,
+          "name": "Bhim Goala",
+          "place": "Lalkhira",
+          "age": 32,
+          "gender": "M",
+          "number": null
+        },
+        {
+          "id": null,
+          "name": "Uttam Goala",
+          "place": "Lalkhira",
+          "age": 46,
+          "gender": "M",
+          "number": null
+        },
+        {
+          "id": null,
+          "name": "Raju Turia",
+          "place": "Lalkhira",
+          "age": 38,
+          "gender": "M",
+          "number": "60022448396"
+        },
+        {
+          "id": null,
+          "name": "Radhakanta Bhar",
+          "place": "Lalkhira",
+          "age": 40,
+          "gender": "M",
+          "number": "7606164319"
+        },
+        {
+          "id": null,
+          "name": "Damodar Bin",
+          "place": "Lalkhira",
+          "age": 52,
+          "gender": "M",
+          "number": "6026777231"
+        },
+        {
+          "id": null,
+          "name": "Krishna Bhar",
+          "place": "Lalkhira",
+          "age": 45,
+          "gender": "M",
+          "number": "8011967929"
+        },
+        {
+          "id": null,
+          "name": "Kartik Kurmi",
+          "place": "Lalkhira",
+          "age": 40,
+          "gender": "M",
+          "number": "6003515163"
+        },
+        {
+          "id": null,
+          "name": "Samprista Gura",
+          "place": "Lalkhira",
+          "age": 47,
+          "gender": "M",
+          "number": "9886224981"
+        },
+        {
+          "id": null,
+          "name": "Lakshman Bauri",
+          "place": "Lalkhira",
+          "age": 32,
+          "gender": "M",
+          "number": "9707045718"
+        },
+        {
+          "id": null,
+          "name": "Abhay Ree",
+          "place": "Lalkhira",
+          "age": 65,
+          "gender": "M",
+          "number": "8011572459"
+        },
+        {
+          "id": null,
+          "name": "Bujaya Ree",
+          "place": "Lalkhira",
+          "age": 42,
+          "gender": "M",
+          "number": "6002273571"
+        },
+        {
+          "id": null,
+          "name": "Sujit Das",
+          "place": "Lalkhira",
+          "age": 35,
+          "gender": "M",
+          "number": "6026605875"
+        },
+        {
+          "id": null,
+          "name": "Snajit Das",
+          "place": "Lalkhira",
+          "age": 34,
+          "gender": "M",
+          "number": "6002930828"
+        },
+        {
+          "id": null,
+          "name": "Biswajit Das",
+          "place": "Lalkhira",
+          "age": 31,
+          "gender": "M",
+          "number": "6001793251"
+        }
+      ]
+    },
+    {
+      "people11": [
+        {
+          "id": null,
+          "name": "Ajay Bauri",
+          "place": "Lalkhira",
+          "age": 62,
+          "gender": "M",
+          "number": "6009294582"
+        },
+        {
+          "id": null,
+          "name": "Babul Das",
+          "place": "Lalkhira",
+          "age": 32,
+          "gender": "M",
+          "number": "9954465622"
+        },
+        {
+          "id": null,
+          "name": "Sanpan Das",
+          "place": "Lalkhira",
+          "age": 31,
+          "gender": "M",
+          "number": "8088217973"
+        },
+        {
+          "id": null,
+          "name": "Fajan Bauri",
+          "place": "Lalkhira",
+          "age": 41,
+          "gender": "M",
+          "number": "8220383283"
+        },
+        {
+          "id": null,
+          "name": "Surja Lal Bauri",
+          "place": "Lalkhira",
+          "age": 60,
+          "gender": "M",
+          "number": "8088210973"
+        },
+        {
+          "id": null,
+          "name": "Ajit Bauri",
+          "place": "Lalkhira",
+          "age": 39,
+          "gender": "M",
+          "number": "8220383283"
+        },
+        {
+          "id": null,
+          "name": "Pradip Das",
+          "place": "Lalkhira",
+          "age": 38,
+          "gender": "M",
+          "number": "6003743605"
+        },
+        {
+          "id": null,
+          "name": "Satrughun Mahali",
+          "place": "Lalkhira",
+          "age": 36,
+          "gender": "M",
+          "number": "9707045718"
+        },
+        {
+          "id": null,
+          "name": "Mangal Mahali",
+          "place": "Lalkhira",
+          "age": 40,
+          "gender": "M",
+          "number": "9395978805"
+        },
+        {
+          "id": null,
+          "name": "Lakshman Mahali",
+          "place": "Lalkhira",
+          "age": 38,
+          "gender": "M",
+          "number": "7099998805"
+        },
+        {
+          "id": null,
+          "name": "Dipan Das",
+          "place": "Lalkhira",
+          "age": 27,
+          "gender": "M",
+          "number": "6009294388"
+        },
+        {
+          "id": null,
+          "name": "Chhot Majhi",
+          "place": "Lalkhira",
+          "age": 60,
+          "gender": "M",
+          "number": "9513095104"
+        },
+        {
+          "id": null,
+          "name": "Sudhir Bauri",
+          "place": "Lalkhira",
+          "age": 37,
+          "gender": "M",
+          "number": "7635930118"
+        },
+        {
+          "id": null,
+          "name": "Ratan Chandra Das",
+          "place": "Lalkhira",
+          "age": 39,
+          "gender": "M",
+          "number": "9864910158"
+        },
+        {
+          "id": null,
+          "name": "Santay Turia",
+          "place": "Lalkhira",
+          "age": 32,
+          "gender": "M",
+          "number": "6003422195"
+        },
+        {
+          "id": null,
+          "name": "Bijay Das",
+          "place": "Lalkhira",
+          "age": 50,
+          "gender": "M",
+          "number": null
+        }
+      ]
+    },
+    {
+      "people12": [
+        {
+          "id": null,
+          "name": "Lalit Bauri",
+          "place": "Lalkhira",
+          "age": 65,
+          "gender": "M",
+          "number": "8638379872"
+        },
+        {
+          "id": null,
+          "name": "Kasyala Bauri",
+          "place": "Lalkhira",
+          "age": 45,
+          "gender": "F",
+          "number": null
+        },
+        {
+          "id": null,
+          "name": "Rina Baiga",
+          "place": "Lalkhira",
+          "age": 18,
+          "gender": "F",
+          "number": null
+        },
+        {
+          "id": null,
+          "name": "Bharat Turia",
+          "place": "Lalkhira",
+          "age": 55,
+          "gender": "M",
+          "number": "6000725966"
+        },
+        {
+          "id": null,
+          "name": "Lakshmi Turia",
+          "place": "Lalkhira",
+          "age": 40,
+          "gender": "F",
+          "number": null
+        },
+        {
+          "id": null,
+          "name": "Suresh Bhar",
+          "place": "Lalkhira",
+          "age": 22,
+          "gender": "M",
+          "number": "6901637591"
+        },
+        {
+          "id": null,
+          "name": "Srimati Bhar",
+          "place": "Lalkhira",
+          "age": 40,
+          "gender": "F",
+          "number": null
+        },
+        {
+          "id": null,
+          "name": "Rita Bhar",
+          "place": "Lalkhira",
+          "age": 17,
+          "gender": "F",
+          "number": null
+        },
+        {
+          "id": null,
+          "name": "Rabesh Bhar",
+          "place": "Lalkhira",
+          "age": 18,
+          "gender": "M",
+          "number": null
+        },
+        {
+          "id": null,
+          "name": "Samariya Bhar",
+          "place": "Lalkhira",
+          "age": 13,
+          "gender": "F",
+          "number": null
+        },
+        {
+          "id": null,
+          "name": "Champa Bhar",
+          "place": "Lalkhira",
+          "age": 12,
+          "gender": "F",
+          "number": null
+        },
+        {
+          "id": null,
+          "name": "Mangala Bauri",
+          "place": "Lalkhira",
+          "age": 38,
+          "gender": "F",
+          "number": "8976732123"
+        },
+        {
+          "id": null,
+          "name": "Rajesh Bauri",
+          "place": "Lalkhira",
+          "age": 40,
+          "gender": "M",
+          "number": null
+        },
+        {
+          "id": null,
+          "name": "Rajkumar Bauri",
+          "place": "Lalkhira",
+          "age": 17,
+          "gender": "M",
+          "number": null
+        },
+        {
+          "id": null,
+          "name": "Lakshmi Prasad Bauri",
+          "place": "Lalkhira",
+          "age": 14,
+          "gender": "M",
+          "number": null
+        },
+        {
+          "id": null,
+          "name": "Rupali Bauri",
+          "place": "Lalkhira",
+          "age": 10,
+          "gender": "F",
+          "number": null
+        }
+      ]
+    },
+    {
+      "people13": [
+        {
+          "id": null,
+          "name": "Krishna Majhi",
+          "place": "Lalkhira",
+          "age": 25,
+          "gender": "M",
+          "number": "6000056753"
+        },
+        {
+          "id": null,
+          "name": "Raja Majhi",
+          "place": "Lalkhira",
+          "age": 61,
+          "gender": "M",
+          "number": null
+        },
+        {
+          "id": null,
+          "name": "Bhechulal Goala",
+          "place": "Lalkhira",
+          "age": 46,
+          "gender": "M",
+          "number": "9513035109"
+        },
+        {
+          "id": null,
+          "name": "Chandri Goala",
+          "place": "Lalkhira",
+          "age": 65,
+          "gender": "F",
+          "number": null
+        },
+        {
+          "id": null,
+          "name": "Saraswati Bhar",
+          "place": "Lalkhira",
+          "age": 45,
+          "gender": "F",
+          "number": "7399290184"
+        },
+        {
+          "id": null,
+          "name": "Uma Bhar",
+          "place": "Lalkhira",
+          "age": 62,
+          "gender": "M",
+          "number": null
+        },
+        {
+          "id": null,
+          "name": "Bishnu Bauri",
+          "place": "Lalkhira",
+          "age": 34,
+          "gender": "M",
+          "number": "6003728708"
+        },
+        {
+          "id": null,
+          "name": "Sanamuni Bauri",
+          "place": "Lalkhira",
+          "age": 26,
+          "gender": "F",
+          "number": "6003728708"
+        },
+        {
+          "id": null,
+          "name": "Payal Bauri",
+          "place": "Lalkhira",
+          "age": 6,
+          "gender": "F",
+          "number": null
+        },
+        {
+          "id": null,
+          "name": "Krishna Bauri",
+          "place": "Lalkhira",
+          "age": 3,
+          "gender": "M",
+          "number": null
+        },
+        {
+          "id": null,
+          "name": "Bimal Bauri",
+          "place": "Lalkhira",
+          "age": 31,
+          "gender": "M",
+          "number": null
+        },
+        {
+          "id": null,
+          "name": "Alka Bauri",
+          "place": "Lalkhira",
+          "age": 27,
+          "gender": "F",
+          "number": null
+        },
+        {
+          "id": null,
+          "name": "Anil Bauri",
+          "place": "Lalkhira",
+          "age": 10,
+          "gender": "M",
+          "number": null
+        },
+        {
+          "id": null,
+          "name": "Sunil Bauri",
+          "place": "Lalkhira",
+          "age": 5,
+          "gender": "M",
+          "number": null
+        },
+        {
+          "id": null,
+          "name": "Kamona Bauri",
+          "place": "Lalkhira",
+          "age": 40,
+          "gender": "F",
+          "number": "7892319594"
+        },
+        {
+          "id": null,
+          "name": "Sanchay Bauri",
+          "place": "Lalkhira",
+          "age": 48,
+          "gender": "M",
+          "number": null
+        }
+      ]
+    },
+    {
+      "people14": [
+        {
+          "id": null,
+          "name": "Nandita Bhuyan",
+          "place": "Lalkhira",
+          "age": 16,
+          "gender": "F",
+          "number": "9101622712"
+        },
+        {
+          "id": null,
+          "name": "Ajay Bhuyan",
+          "place": "Lalkhira",
+          "age": 35,
+          "gender": "M",
+          "number": null
+        },
+        {
+          "id": null,
+          "name": "Muniya Bhuyan",
+          "place": "Lalkhira",
+          "age": 28,
+          "gender": "F",
+          "number": null
+        },
+        {
+          "id": null,
+          "name": "Rumi Bhuyan",
+          "place": "Lalkhira",
+          "age": 12,
+          "gender": "F",
+          "number": null
+        },
+        {
+          "id": null,
+          "name": "Arju Bhuyan",
+          "place": "Lalkhira",
+          "age": 9,
+          "gender": "M",
+          "number": null
+        },
+        {
+          "id": null,
+          "name": "Babl Bhuyan",
+          "place": "Lalkhira",
+          "age": 3,
+          "gender": "F",
+          "number": null
+        },
+        {
+          "id": null,
+          "name": "Dilip Bhuyan",
+          "place": "Lalkhira",
+          "age": 30,
+          "gender": "M",
+          "number": "6002386689"
+        },
+        {
+          "id": null,
+          "name": "Biswanath Bhuyan",
+          "place": "Lalkhira",
+          "age": 60,
+          "gender": "M",
+          "number": null
+        },
+        {
+          "id": null,
+          "name": "Radhakanta Bhar",
+          "place": "Lalkhira",
+          "age": 51,
+          "gender": "M",
+          "number": "6381225451"
+        },
+        {
+          "id": null,
+          "name": "Jamoni Turia",
+          "place": "Lalkhira",
+          "age": 65,
+          "gender": "F",
+          "number": null
+        },
+        {
+          "id": null,
+          "name": "Amar Turia",
+          "place": "Lalkhira",
+          "age": 36,
+          "gender": "M",
+          "number": null
+        },
+        {
+          "id": null,
+          "name": "Rima Turia",
+          "place": "Lalkhira",
+          "age": 30,
+          "gender": "F",
+          "number": null
+        },
+        {
+          "id": null,
+          "name": "Rohit Turia",
+          "place": "Lalkhira",
+          "age": 17,
+          "gender": "M",
+          "number": null
+        },
+        {
+          "id": null,
+          "name": "Sanjana Turia",
+          "place": "Lalkhira",
+          "age": 15,
+          "gender": "F",
+          "number": null
+        },
+        {
+          "id": null,
+          "name": "Monika Turia",
+          "place": "Lalkhira",
+          "age": 12,
+          "gender": "F",
+          "number": null
+        }
+      ]
+    },
+    {
+      "people15": [
+        {
+          "id": null,
+          "name": "Radhiya Kouri",
+          "place": "CHANDKHIRA",
+          "age": 72,
+          "gender": "F",
+          "number": "7086565845"
+        },
+        {
+          "id": null,
+          "name": "Bishnu Rabidas",
+          "place": "CHANDKHIRA",
+          "age": 29,
+          "gender": "M",
+          "number": "8972950709"
+        },
+        {
+          "id": null,
+          "name": "Krishna Rabidas",
+          "place": "CHANDKHIRA",
+          "age": 62,
+          "gender": "M",
+          "number": null
+        },
+        {
+          "id": null,
+          "name": "Bimala Rabidas",
+          "place": "CHANDKHIRA",
+          "age": 59,
+          "gender": "F",
+          "number": null
+        },
+        {
+          "id": null,
+          "name": "Gita Rabidas",
+          "place": "CHANDKHIRA",
+          "age": 24,
+          "gender": "F",
+          "number": null
+        },
+        {
+          "id": null,
+          "name": "Riyul Rabidas",
+          "place": "CHANDKHIRA",
+          "age": 3,
+          "gender": "M",
+          "number": null
+        },
+        {
+          "id": null,
+          "name": "Chanda Rabidas",
+          "place": "CHANDKHIRA",
+          "age": 28,
+          "gender": "F",
+          "number": null
+        },
+        {
+          "id": null,
+          "name": "Gopal Rabidas",
+          "place": "CHANDKHIRA",
+          "age": 24,
+          "gender": "M",
+          "number": null
+        },
+        {
+          "id": null,
+          "name": "Pinaki Bagor",
+          "place": "CHANDKHIRA",
+          "age": 12,
+          "gender": "F",
+          "number": "6003534163"
+        },
+        {
+          "id": null,
+          "name": "Bholarana Bagor",
+          "place": "CHANDKHIRA",
+          "age": 69,
+          "gender": "M",
+          "number": null
+        },
+        {
+          "id": null,
+          "name": "Ajay Bagor",
+          "place": "CHANDKHIRA",
+          "age": 40,
+          "gender": "M",
+          "number": null
+        },
+        {
+          "id": null,
+          "name": "Yagna Bagor",
+          "place": "CHANDKHIRA",
+          "age": 33,
+          "gender": "F",
+          "number": null
+        },
+        {
+          "id": null,
+          "name": "Kunal Bagor",
+          "place": "CHANDKHIRA",
+          "age": 8,
+          "gender": "M",
+          "number": null
+        }
+      ]
+    },
+    {
+      "people16": [
+        {
+          "id": null,
+          "name": "Astuami Bikiyason",
+          "place": "CHANDKHIRA",
+          "age": 37,
+          "gender": "F",
+          "number": "7086083565"
+        },
+        {
+          "id": null,
+          "name": "Atuariyia Bikiyason",
+          "place": "CHANDKHIRA",
+          "age": 70,
+          "gender": "F",
+          "number": "7086083565"
+        },
+        {
+          "id": null,
+          "name": "Ridu Bikiyason",
+          "place": "CHANDKHIRA",
+          "age": 18,
+          "gender": "M",
+          "number": "6003534163"
+        },
+        {
+          "id": null,
+          "name": "Gourav Bikiyason",
+          "place": "CHANDKHIRA",
+          "age": 11,
+          "gender": "M",
+          "number": "6003534163"
+        },
+        {
+          "id": null,
+          "name": "Mohan Kurmi",
+          "place": "CHANDKHIRA",
+          "age": 50,
+          "gender": "M",
+          "number": "9859965049"
+        },
+        {
+          "id": null,
+          "name": "Suna Kurmi",
+          "place": "CHANDKHIRA",
+          "age": 44,
+          "gender": "F",
+          "number": "9859965049"
+        },
+        {
+          "id": null,
+          "name": "Tukara Kurmi",
+          "place": "CHANDKHIRA",
+          "age": 24,
+          "gender": "M",
+          "number": "9859965049"
+        },
+        {
+          "id": null,
+          "name": "Dasrak Kurmi",
+          "place": "CHANDKHIRA",
+          "age": 18,
+          "gender": "M",
+          "number": "9859965049"
+        },
+        {
+          "id": null,
+          "name": "Sruti Kurmi",
+          "place": "CHANDKHIRA",
+          "age": 15,
+          "gender": "F",
+          "number": "9859965049"
+        },
+        {
+          "id": null,
+          "name": "Rama Kurmi",
+          "place": "CHANDKHIRA",
+          "age": 14,
+          "gender": "F",
+          "number": "9859965049"
+        },
+        {
+          "id": null,
+          "name": "Manju Bhar",
+          "place": "CHANDKHIRA",
+          "age": 55,
+          "gender": "F",
+          "number": "8133000952"
+        },
+        {
+          "id": null,
+          "name": "Janak Bhar",
+          "place": "CHANDKHIRA",
+          "age": 63,
+          "gender": "M",
+          "number": "8133000952"
+        },
+        {
+          "id": null,
+          "name": "Rajesh Bhar",
+          "place": "CHANDKHIRA",
+          "age": 22,
+          "gender": "M",
+          "number": "8133000952"
+        },
+        {
+          "id": null,
+          "name": "Jugeswar Kurmi",
+          "place": "CHANDKHIRA",
+          "age": 17,
+          "gender": "M",
+          "number": "8133000952"
+        }
+      ]
+    },
+    {
+      "people17": [
+        {
+          "id": null,
+          "name": "Sri Kumari Hajam",
+          "place": "CHANDKHIRA",
+          "age": 68,
+          "gender": "F",
+          "number": "7099373516"
+        },
+        {
+          "id": null,
+          "name": "Pratap Hajam",
+          "place": "CHANDKHIRA",
+          "age": 52,
+          "gender": "M",
+          "number": null
+        },
+        {
+          "id": null,
+          "name": "Kamal Hajam",
+          "place": "CHANDKHIRA",
+          "age": 24,
+          "gender": "M",
+          "number": null
+        },
+        {
+          "id": null,
+          "name": "Munna Hajam",
+          "place": "CHANDKHIRA",
+          "age": 43,
+          "gender": "M",
+          "number": null
+        },
+        {
+          "id": null,
+          "name": "Punima Hajam",
+          "place": "CHANDKHIRA",
+          "age": 22,
+          "gender": "F",
+          "number": null
+        },
+        {
+          "id": null,
+          "name": "Bagaur Moni Saual",
+          "place": "CHANDKHIRA",
+          "age": 40,
+          "gender": "M",
+          "number": "9387405275"
+        },
+        {
+          "id": null,
+          "name": "Jiten Saual",
+          "place": "CHANDKHIRA",
+          "age": 37,
+          "gender": "M",
+          "number": null
+        },
+        {
+          "id": null,
+          "name": "Mamoni Saual",
+          "place": "CHANDKHIRA",
+          "age": 26,
+          "gender": "F",
+          "number": null
+        },
+        {
+          "id": null,
+          "name": "Biswajit Saual",
+          "place": "CHANDKHIRA",
+          "age": 5,
+          "gender": "M",
+          "number": null
+        },
+        {
+          "id": null,
+          "name": "Sunita Saual",
+          "place": "CHANDKHIRA",
+          "age": 20,
+          "gender": "F",
+          "number": null
+        },
+        {
+          "id": null,
+          "name": "Arun Chasa",
+          "place": "CHANDKHIRA",
+          "age": 61,
+          "gender": "M",
+          "number": "8099824286"
+        }
+      ]
+    },
+    {
+      "people18": [
+        {
+          "id": null,
+          "name": "Somir Bhar",
+          "place": "CHANDKHIRA",
+          "age": 45,
+          "gender": "F",
+          "number": "938709557"
+        },
+        {
+          "id": null,
+          "name": "Basdev Bhar",
+          "place": "CHANDKHIRA",
+          "age": 52,
+          "gender": "M",
+          "number": "938709557"
+        },
+        {
+          "id": null,
+          "name": "Krisna Bhar",
+          "place": "CHANDKHIRA",
+          "age": 28,
+          "gender": "M",
+          "number": "938709557"
+        },
+        {
+          "id": null,
+          "name": "Bishal Bhar",
+          "place": "CHANDKHIRA",
+          "age": 18,
+          "gender": "M",
+          "number": "938709557"
+        },
+        {
+          "id": null,
+          "name": "Anita Bhar",
+          "place": "CHANDKHIRA",
+          "age": 16,
+          "gender": "F",
+          "number": "938709557"
+        },
+        {
+          "id": null,
+          "name": "Bikash Bhar",
+          "place": "CHANDKHIRA",
+          "age": 12,
+          "gender": "M",
+          "number": "938709557"
+        },
+        {
+          "id": null,
+          "name": "Babuni Bhar",
+          "place": "CHANDKHIRA",
+          "age": 78,
+          "gender": "F",
+          "number": "938709557"
+        },
+        {
+          "id": null,
+          "name": "Bharati Karmakar",
+          "place": "CHANDKHIRA",
+          "age": 37,
+          "gender": "F",
+          "number": "8819760788"
+        },
+        {
+          "id": null,
+          "name": "Jugesh Karmakar",
+          "place": "CHANDKHIRA",
+          "age": 46,
+          "gender": "M",
+          "number": "8819760788"
+        },
+        {
+          "id": null,
+          "name": "Sujitma Bhar",
+          "place": "CHANDKHIRA",
+          "age": 19,
+          "gender": "F",
+          "number": "8819760788"
+        },
+        {
+          "id": null,
+          "name": "Manma Bhar",
+          "place": "CHANDKHIRA",
+          "age": 17,
+          "gender": "F",
+          "number": "8819760788"
+        },
+        {
+          "id": null,
+          "name": "Bikram Bhar",
+          "place": "CHANDKHIRA",
+          "age": 12,
+          "gender": "M",
+          "number": "8819760788"
+        },
+        {
+          "id": null,
+          "name": "Mangal Bhar",
+          "place": "CHANDKHIRA",
+          "age": 13,
+          "gender": "M",
+          "number": "8819760788"
+        },
+        {
+          "id": null,
+          "name": "Namita",
+          "place": "CHANDKHIRA",
+          "age": 10,
+          "gender": "F",
+          "number": "8819760788"
+        }
+      ]
+    },
+    {
+      "people19": [
+        {
+          "id": null,
+          "name": "Pradum Kouri",
+          "place": "CHANDKHIRA",
+          "age": 59,
+          "gender": "M",
+          "number": "9365985100"
+        },
+        {
+          "id": null,
+          "name": "Prasanjit Kouri",
+          "place": "CHANDKHIRA",
+          "age": 34,
+          "gender": "M",
+          "number": "9365985100"
+        },
+        {
+          "id": null,
+          "name": "Mamata Kouri",
+          "place": "CHANDKHIRA",
+          "age": 25,
+          "gender": "F",
+          "number": "9365985100"
+        },
+        {
+          "id": null,
+          "name": "Prosanto Kouri",
+          "place": "CHANDKHIRA",
+          "age": 4,
+          "gender": "M",
+          "number": "9365985100"
+        },
+        {
+          "id": null,
+          "name": "Susanta Kouri",
+          "place": "CHANDKHIRA",
+          "age": 1,
+          "gender": "M",
+          "number": "9365985100"
+        },
+        {
+          "id": null,
+          "name": "Bidhya Kouri",
+          "place": "CHANDKHIRA",
+          "age": 45,
+          "gender": "M",
+          "number": "9365985100"
+        },
+        {
+          "id": null,
+          "name": "Amuka Kouri",
+          "place": "CHANDKHIRA",
+          "age": 68,
+          "gender": "M",
+          "number": "8751820530"
+        },
+        {
+          "id": null,
+          "name": "Ajit",
+          "place": "CHANDKHIRA",
+          "age": 37,
+          "gender": "M",
+          "number": "8751820530"
+        },
+        {
+          "id": null,
+          "name": "Bandana Bati",
+          "place": "CHANDKHIRA",
+          "age": 35,
+          "gender": "F",
+          "number": "8751820530"
+        },
+        {
+          "id": null,
+          "name": "Aditya Kouri",
+          "place": "CHANDKHIRA",
+          "age": 14,
+          "gender": "M",
+          "number": "8751820530"
+        },
+        {
+          "id": null,
+          "name": "Aman Kouri",
+          "place": "CHANDKHIRA",
+          "age": 10,
+          "gender": "M",
+          "number": "8751820530"
+        },
+        {
+          "id": null,
+          "name": "Shanta Kouri",
+          "place": "CHANDKHIRA",
+          "age": 27,
+          "gender": "F",
+          "number": "8751820530"
+        },
+        {
+          "id": null,
+          "name": "Sambram Kouri",
+          "place": "CHANDKHIRA",
+          "age": 1,
+          "gender": "M",
+          "number": "8751820530"
+        },
+        {
+          "id": null,
+          "name": "Biswajit Kouri",
+          "place": "CHANDKHIRA",
+          "age": 31,
+          "gender": "M",
+          "number": "8751820530"
+        },
+        {
+          "id": null,
+          "name": "Bona Chand",
+          "place": "CHANDKHIRA",
+          "age": 25,
+          "gender": "F",
+          "number": "8751820530"
+        },
+        {
+          "id": null,
+          "name": "Sujit Lal",
+          "place": "CHANDKHIRA",
+          "age": 37,
+          "gender": "M",
+          "number": "8751820530"
+        }
+      ]
+    },
+    {
+      "people20": [
+        {
+          "id": null,
+          "name": "Bhim Kouri",
+          "place": "CHANDKHIRA",
+          "age": 57,
+          "gender": "M",
+          "number": "6026644837"
+        },
+        {
+          "id": null,
+          "name": "Surjan Kouri",
+          "place": "CHANDKHIRA",
+          "age": 35,
+          "gender": "M",
+          "number": "6026644837"
+        },
+        {
+          "id": null,
+          "name": "Chhoto Surjabangshi",
+          "place": "CHANDKHIRA",
+          "age": 57,
+          "gender": "M",
+          "number": "8134874169"
+        },
+        {
+          "id": null,
+          "name": "Mani Surjabangshi",
+          "place": "CHANDKHIRA",
+          "age": 52,
+          "gender": "M",
+          "number": "7399804753"
+        },
+        {
+          "id": null,
+          "name": "Umesh Goala",
+          "place": "CHANDKHIRA",
+          "age": 44,
+          "gender": "M",
+          "number": "9394137356"
+        },
+        {
+          "id": null,
+          "name": "Jitesh Goala",
+          "place": "CHANDKHIRA",
+          "age": 37,
+          "gender": "M",
+          "number": "9394137350"
+        },
+        {
+          "id": null,
+          "name": "Jitendra Goala",
+          "place": "CHANDKHIRA",
+          "age": 34,
+          "gender": "M",
+          "number": "8011354197"
+        },
+        {
+          "id": null,
+          "name": "Jugeswar Surjabangshi",
+          "place": "CHANDKHIRA",
+          "age": 38,
+          "gender": "M",
+          "number": "8472841905"
+        },
+        {
+          "id": null,
+          "name": "Satnarayan Goala",
+          "place": "CHANDKHIRA",
+          "age": 52,
+          "gender": "M",
+          "number": "7638876471"
+        }
+      ]
+    },
+    {
+      "people21": [
+        {
+          "id": null,
+          "name": "Kishore Goyala",
+          "place": "CHANDKHIRA",
+          "age": 57,
+          "gender": "M",
+          "number": "9707049216"
+        },
+        {
+          "id": null,
+          "name": "Bidya Goyala",
+          "place": "CHANDKHIRA",
+          "age": 71,
+          "gender": "M",
+          "number": "9707492969"
+        },
+        {
+          "id": null,
+          "name": "Janhiya Goyala",
+          "place": "CHANDKHIRA",
+          "age": 83,
+          "gender": "F",
+          "number": "9678821717"
+        },
+        {
+          "id": null,
+          "name": "Rajen Rabidas",
+          "place": "CHANDKHIRA",
+          "age": 48,
+          "gender": "M",
+          "number": "9957746425"
+        },
+        {
+          "id": null,
+          "name": "Rama Goyala",
+          "place": "CHANDKHIRA",
+          "age": 35,
+          "gender": "M",
+          "number": "9365482193"
+        },
+        {
+          "id": null,
+          "name": "Apurba Baidya",
+          "place": "CHANDKHIRA",
+          "age": 42,
+          "gender": "M",
+          "number": "9864897454"
+        },
+        {
+          "id": null,
+          "name": "Sujit Rikiyasan",
+          "place": "CHANDKHIRA",
+          "age": 36,
+          "gender": "M",
+          "number": "6900525504"
+        },
+        {
+          "id": null,
+          "name": "Dilip Rikiyasan ",
+          "place": "CHANDKHIRA",
+          "age": 31,
+          "gender": "M",
+          "number": "6900525504"
+        }
+      ]
+    },
+    {
+      "people22": [
+        {
+          "id": null,
+          "name": "Koulash Goyala",
+          "place": "CHANDKHIRA",
+          "age": 50,
+          "gender": "M",
+          "number": "7099373031"
+        },
+        {
+          "id": null,
+          "name": "Sudarsan Rabidas",
+          "place": "CHANDKHIRA",
+          "age": 44,
+          "gender": "M",
+          "number": "9864195337"
+        },
+        {
+          "id": null,
+          "name": "Kanailal Rabidas",
+          "place": "CHANDKHIRA",
+          "age": 37,
+          "gender": "M",
+          "number": "6002252908"
+        },
+        {
+          "id": null,
+          "name": "Ratan Lal Rabidas",
+          "place": "CHANDKHIRA",
+          "age": 35,
+          "gender": "M",
+          "number": "9678679258"
+        },
+        {
+          "id": null,
+          "name": "Surud Munda",
+          "place": "CHANDKHIRA",
+          "age": 32,
+          "gender": "M",
+          "number": "6900899789"
+        },
+        {
+          "id": null,
+          "name": "Chandan Mala",
+          "place": "CHANDKHIRA",
+          "age": 28,
+          "gender": "M",
+          "number": "6001804531"
+        },
+        {
+          "id": null,
+          "name": "Gonguli Munush",
+          "place": "CHANDKHIRA",
+          "age": 31,
+          "gender": "M",
+          "number": "6900194517"
+        },
+        {
+          "id": null,
+          "name": "Lalbabu Munush ",
+          "place": "CHANDKHIRA",
+          "age": 46,
+          "gender": "M",
+          "number": "9957872950"
+        },
+        {
+          "id": null,
+          "name": "Surju Munda",
+          "place": "CHANDKHIRA",
+          "age": 37,
+          "gender": "M",
+          "number": "9957872950"
+        }
+      ]
+    },
+    {
+      "people23": [
+        {
+          "id": null,
+          "name": "Himanshu Nath",
+          "place": "CHANDKHIRA",
+          "age": 58,
+          "gender": "M",
+          "number": "8877974938"
+        },
+        {
+          "id": null,
+          "name": "Hem Basu Nath",
+          "place": "CHANDKHIRA",
+          "age": 25,
+          "gender": "M",
+          "number": "6002348157"
+        },
+        {
+          "id": null,
+          "name": "Satan Nath",
+          "place": "CHANDKHIRA",
+          "age": 36,
+          "gender": "M",
+          "number": "9395211698"
+        },
+        {
+          "id": null,
+          "name": "Ratan Deb",
+          "place": "CHANDKHIRA",
+          "age": 30,
+          "gender": "M",
+          "number": "9707487733"
+        },
+        {
+          "id": null,
+          "name": "Rajon Deb",
+          "place": "CHANDKHIRA",
+          "age": 28,
+          "gender": "M",
+          "number": "6001777957"
+        },
+        {
+          "id": null,
+          "name": "Ramashankar Rabidas",
+          "place": "CHANDKHIRA",
+          "age": 45,
+          "gender": "M",
+          "number": "881204400"
+        },
+        {
+          "id": null,
+          "name": "Uma Shankar Rabidas",
+          "place": "CHANDKHIRA",
+          "age": 41,
+          "gender": "M",
+          "number": "9678576915"
+        },
+        {
+          "id": null,
+          "name": "Bachun Lal Kauri",
+          "place": "CHANDKHIRA",
+          "age": 40,
+          "gender": "M",
+          "number": "6901336189"
+        },
+        {
+          "id": null,
+          "name": "Ramdayal Kauri",
+          "place": "CHANDKHIRA",
+          "age": 68,
+          "gender": "M",
+          "number": "7638842466"
+        },
+        {
+          "id": null,
+          "name": "Mohom Lal Kauri",
+          "place": "CHANDKHIRA",
+          "age": 41,
+          "gender": "M",
+          "number": "7638842466"
+        },
+        {
+          "id": null,
+          "name": "Ranjit Barna",
+          "place": "CHANDKHIRA",
+          "age": 43,
+          "gender": "M",
+          "number": "6900609530"
+        }
+      ]
+    }
+  ]
+}
