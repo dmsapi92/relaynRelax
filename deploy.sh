@@ -4,7 +4,7 @@
 LOCAL_BUILD_DIR="build"
 ZIP_NAME="build.zip"
 REMOTE_USER="root"
-REMOTE_HOST="156.67.219.236"
+REMOTE_HOST="187.127.149.169"
 REMOTE_DIR="/root/nodeprojects/relayNrelax"
 PASSWORD="Whatthefq101@#"
 PM2_ID=6
