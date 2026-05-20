@@ -1,0 +1,41 @@
+name: Deploy to Server
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Deploy via SSH (secure)
+        uses: appleboy/ssh-action@v1.0.0
+        with:
+          host: 187.127.149.169
+          username: root
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          port: 22
+          script: |
+            echo "🚀 Starting deployment..."
+
+            cd /root/nodeprojects/relaynRelax || exit
+
+            echo "📥 Pulling latest code..."
+            git pull origin main
+
+            echo "📦 Installing dependencies..."
+            npm install
+
+            echo "🏗 Building project..."
+            NODE_OPTIONS="--max-old-space-size=4096" npm run build
+
+
+            echo "🧬 Running Prisma..."
+            npx prisma generate
+
+            echo "🔄 Restarting PM2..."
+            pm2 reload 4 || pm2 start ecosystem.config.js
+
+            echo "✅ Deployment completed!"

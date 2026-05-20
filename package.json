@@ -3,6 +3,9 @@
   "private": true,
   "sideEffects": false,
   "type": "module",
+  "prisma": {
+    "schema": "prisma/schema/schema.prisma"
+  },
   "scripts": {
     "build": "remix vite:build",
     "dev": "remix vite:dev",
