@@ -6,10 +6,10 @@ const realsec = "PT5lrEYAA6yNvLRgCXBq2aUx";
 export const ENV = {
   MASTER_DATABASE_URL:
     process.env.MASTER_DATABASE_URL ||
-    "mongodb://DmsAdmin:Whatthefq101@187.127.149.169:27017/relynrelaxMasterDB?replicaSet=rs0&authSource=DMS",
+    "mongodb://DmsAdmin:Whatthefq101@66.116.243.49:27017/relynrelaxMasterDB?replicaSet=rs0&authSource=DMS",
   USER_DATABASE_URL_TEMPLATE:
     process.env.USER_DATABASE_URL_TEMPLATE ||
-    "mongodb://DmsAdmin:Whatthefq101@187.127.149.169:27017/{dbname}?replicaSet=rs0&authSource=DMS",
+    "mongodb://DmsAdmin:Whatthefq101@66.116.243.49:27017/{dbname}?replicaSet=rs0&authSource=DMS",
   NODE_ENV: process.env.NODE_ENV || "production",
   EMAIL_USER: process.env.EMAIL_USER || "dioscschool@gmail.com",
   EMAIL_PASSWORD: process.env.EMAIL_PASSWORD || "qqmtgjkkvbcgavti",
